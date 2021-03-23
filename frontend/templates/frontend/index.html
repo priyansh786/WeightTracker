@@ -1,0 +1,11 @@
+{% extends "frontend/root.html" %}
+{% block body %}
+<div id="root">
+    Loading...
+</div>
+{% endblock %}
+
+{% block jsLinks %}
+{% load static %} 
+<script src="{% static 'frontend/main.js' %}"></script>
+{% endblock %}
